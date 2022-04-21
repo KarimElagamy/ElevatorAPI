@@ -1,0 +1,6 @@
+C:\Demos\ElevatorAPI\ElevatorAPI\obj\Debug\net6.0\ElevatorAPI.csproj.AssemblyReference.cache
+C:\Demos\ElevatorAPI\ElevatorAPI\obj\Debug\net6.0\ElevatorAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Demos\ElevatorAPI\ElevatorAPI\obj\Debug\net6.0\ElevatorAPI.AssemblyInfoInputs.cache
+C:\Demos\ElevatorAPI\ElevatorAPI\obj\Debug\net6.0\ElevatorAPI.AssemblyInfo.cs
+C:\Demos\ElevatorAPI\ElevatorAPI\obj\Debug\net6.0\ElevatorAPI.csproj.CoreCompileInputs.cache
+C:\Demos\ElevatorAPI\ElevatorAPI\obj\Debug\net6.0\ElevatorAPI.MvcApplicationPartsAssemblyInfo.cache

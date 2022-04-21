@@ -1,0 +1,5 @@
+C:\Demos\ElevatorAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Demos\ElevatorAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Demos\ElevatorAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Demos\ElevatorAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Demos\ElevatorAPI\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache

@@ -1,4 +1,6 @@
 ﻿using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
+using ApplicationCore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,14 +11,31 @@ namespace Infrastructure.Services
 {
     public class ElevatorService : IElevatorService
     {
-        public void requestAllFloors()
+        Elevator elevator;
+        public ElevatorService(Elevator _elevator)
         {
-            throw new NotImplementedException();
+            elevator = _elevator;
+        }
+        public RequestModel[] RequestAllFloors()
+        {
+            RequestModel[] dataArray = new RequestModel[] { };
+            dataArray = elevator.upQueue.ToArray<RequestModel>();
+            dataArray.Concat<RequestModel>(elevator.downQueue.ToArray<RequestModel>());
+            return dataArray;
         }
 
-        public void requestNextFloor()
+        public int RequestNextFloor()
         {
-            throw new NotImplementedException();
+            if (elevator.elevatorDirection == Direction.up)
+            {
+                var dataArray = elevator.upQueue.First<RequestModel>();
+                return dataArray.nextFloor;
+            }
+            else
+            {
+                var dataArray = elevator.downQueue.First<RequestModel>();
+                return dataArray.nextFloor;
+            }
         }
     }
 }

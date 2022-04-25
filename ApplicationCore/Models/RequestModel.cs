@@ -8,8 +8,8 @@ namespace ApplicationCore.Models
 {
     public class RequestModel
     {
-        int currFloor;
-        int nextFloor;
+        public int currFloor;
+        public int nextFloor;
         Direction requestDirection;
 
         public RequestModel(int currFloor, int nextFloor, Direction direction)

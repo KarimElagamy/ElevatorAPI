@@ -9,12 +9,12 @@ namespace Infrastructure.Services
 {
     public class PersonService : IPersonService
     {
-        public void requestElevator(int currFloor)
+        public void RequestElevator(int currFloor)
         {
             throw new NotImplementedException();
         }
 
-        public void requestFloor(int currFloor, int nextFloor)
+        public void RequestFloor(int currFloor, int nextFloor)
         {
             throw new NotImplementedException();
         }

@@ -9,8 +9,8 @@ namespace ApplicationCore.Contracts.Services
 {
     public interface IPersonService
     {
-        public void requestElevator(int currFloor);
-        public void requestFloor(int currFloor, int nextFloor);
+        Task<int> RequestElevator(int currFloor);
+        Task<int> RequestFloor(int currFloor, int nextFloor);
 
     }
 }

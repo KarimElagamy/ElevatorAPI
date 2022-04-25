@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n7iShB6AohF9XSYnTTAs6nd1K6B2X/0xrHjpeZpuZOHiSTL7tT9b8VDGc4iixgirJSzbfGGggyua1QP9+fIhew==",
+  "dgSpecHash": "9RapVq8hU2tkzDp6Pco43I2KHqAsQa7N1xeB6xEinP0tRoh512AaKcxY2ELCxu593c7pXPFjr7geVUDtSXuXFA==",
   "success": true,
-  "projectFilePath": "C:\\Demos\\ElevatorAPI\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "/Users/karim/Downloads/ElevatorAPI/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

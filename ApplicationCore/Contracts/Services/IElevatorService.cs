@@ -9,8 +9,8 @@ namespace ApplicationCore.Contracts.Services
 {
     public interface IElevatorService
     {
-        public void requestNextFloor();
+        Task<int> RequestNextFloor();
 
-        public void requestAllFloors();
+        Task<Array> RequestAllFloors();
     }
 }

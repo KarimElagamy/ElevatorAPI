@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Demos\\ElevatorAPI\\Infrastructure\\Infrastructure.csproj": {}
+    "/Users/karim/Downloads/ElevatorAPI/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Demos\\ElevatorAPI\\ApplicationCore\\ApplicationCore.csproj": {
+    "/Users/karim/Downloads/ElevatorAPI/ApplicationCore/ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Demos\\ElevatorAPI\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "/Users/karim/Downloads/ElevatorAPI/ApplicationCore/ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Demos\\ElevatorAPI\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Demos\\ElevatorAPI\\ApplicationCore\\obj\\",
+        "projectPath": "/Users/karim/Downloads/ElevatorAPI/ApplicationCore/ApplicationCore.csproj",
+        "packagesPath": "/Users/karim/.nuget/packages/",
+        "outputPath": "/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/karim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,36 +52,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Demos\\ElevatorAPI\\Infrastructure\\Infrastructure.csproj": {
+    "/Users/karim/Downloads/ElevatorAPI/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Demos\\ElevatorAPI\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/Users/karim/Downloads/ElevatorAPI/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Demos\\ElevatorAPI\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Demos\\ElevatorAPI\\Infrastructure\\obj\\",
+        "projectPath": "/Users/karim/Downloads/ElevatorAPI/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/karim/.nuget/packages/",
+        "outputPath": "/Users/karim/Downloads/ElevatorAPI/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/karim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Demos\\ElevatorAPI\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Demos\\ElevatorAPI\\ApplicationCore\\ApplicationCore.csproj"
+              "/Users/karim/Downloads/ElevatorAPI/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/Users/karim/Downloads/ElevatorAPI/ApplicationCore/ApplicationCore.csproj"
               }
             }
           }
@@ -112,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }

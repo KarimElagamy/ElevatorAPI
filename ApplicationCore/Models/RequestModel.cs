@@ -10,7 +10,7 @@ namespace ApplicationCore.Models
     {
         public int currFloor;
         public int nextFloor;
-        Direction requestDirection;
+        public Direction requestDirection;
 
         public RequestModel(int currFloor, int nextFloor, Direction direction)
         {
@@ -18,17 +18,11 @@ namespace ApplicationCore.Models
             this.nextFloor = nextFloor;
             this.requestDirection = direction;
         }
-    }
 
-    public enum Direction
-    {
-        up,
-        down
-    }
-
-    public enum RequestLocation
-    {
-        inside,
-        outside
+        public enum Direction
+        {
+            up,
+            down
+        }
     }
 }

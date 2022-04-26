@@ -1,3 +1,4 @@
+using ApplicationCore.Contracts.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ElevatorAPI.Controllers
@@ -6,28 +7,34 @@ namespace ElevatorAPI.Controllers
     [Route("[controller]")]
     public class ElevatorController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        private readonly IElevatorService _elevatorService;
+        public ElevatorController(IElevatorService elev)
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
-        private readonly ILogger<ElevatorController> _logger;
-
-        public ElevatorController(ILogger<ElevatorController> logger)
-        {
-            _logger = logger;
+            _elevatorService = elev;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<Elevator> Get()
+        [HttpGet]
+        [Route("next")]
+        public IActionResult GetNextFloor()
         {
-            return Enumerable.Range(1, 5).Select(index => new Elevator
+            var data = _elevatorService.RequestNextFloor();
+            if (data == null)
             {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+                return NotFound("No Next Floor Available");
+            }
+            return Ok(data);
+        }
+
+        [HttpGet]
+        [Route("all")]
+        public IActionResult GetAllFloor()
+        {
+            var data = _elevatorService.RequestAllFloors();
+            if (data == null)
+            {
+                return NotFound("No Floors Available");
+            }
+            return Ok(data);
         }
     }
 }

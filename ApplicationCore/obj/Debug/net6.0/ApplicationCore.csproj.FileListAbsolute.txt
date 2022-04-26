@@ -1,0 +1,12 @@
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/Debug/net6.0/ApplicationCore.csproj.AssemblyReference.cache
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/Debug/net6.0/ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/Debug/net6.0/ApplicationCore.AssemblyInfoInputs.cache
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/Debug/net6.0/ApplicationCore.AssemblyInfo.cs
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/Debug/net6.0/ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/bin/Debug/net6.0/ApplicationCore.deps.json
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/bin/Debug/net6.0/ApplicationCore.dll
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/bin/Debug/net6.0/ApplicationCore.pdb
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/Debug/net6.0/ApplicationCore.dll
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/Debug/net6.0/refint/ApplicationCore.dll
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/Debug/net6.0/ApplicationCore.pdb
+/Users/karim/Downloads/ElevatorAPI/ApplicationCore/obj/Debug/net6.0/ref/ApplicationCore.dll

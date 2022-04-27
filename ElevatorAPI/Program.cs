@@ -1,4 +1,5 @@
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
 using Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IPersonService, PersonService>();
 builder.Services.AddScoped<IElevatorService, ElevatorService>();
+builder.Services.AddScoped<Elevator, Elevator>();
+builder.Services.AddScoped<Person, Person>();
 
 var app = builder.Build();
 

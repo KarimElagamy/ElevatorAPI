@@ -1,24 +1,22 @@
 ﻿<Properties StartupConfiguration="{B34A9ABE-0860-4817-8142-39087C896224}|Default">
-  <MonoDevelop.Ide.ItemProperties.ApplicationCore FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.ElevatorAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ElevatorAPI/Controllers/PersonController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Services/ElevatorService.cs">
     <Files>
       <File FileName="Infrastructure/Services/ElevatorService.cs" Line="22" Column="45" />
-      <File FileName="ApplicationCore/Entities/Elevator.cs" Line="15" Column="19" />
+      <File FileName="ApplicationCore/Entities/Elevator.cs" Line="17" Column="36" />
       <File FileName="ApplicationCore/Models/RequestModel.cs" Line="16" Column="10" />
-      <File FileName="ApplicationCore/Contracts/Services/IElevatorService.cs" Line="14" Column="35" />
-      <File FileName="Infrastructure/Services/PersonService.cs" Line="48" Column="10" />
-      <File FileName="ApplicationCore/Contracts/Services/IPersonService.cs" Line="13" Column="20" />
-      <File FileName="ElevatorAPI/Program.cs" Line="1" Column="1" />
-      <File FileName="ElevatorAPI/Controllers/ElevatorController.cs" Line="39" Column="6" />
-      <File FileName="ElevatorAPI/Controllers/PersonController.cs" Line="27" Column="1" />
+      <File FileName="ApplicationCore/Contracts/Services/IElevatorService.cs" Line="17" Column="1" />
+      <File FileName="Infrastructure/Services/PersonService.cs" Line="47" Column="44" />
+      <File FileName="ApplicationCore/Contracts/Services/IPersonService.cs" Line="7" Column="1" />
+      <File FileName="ElevatorAPI/Program.cs" Line="12" Column="1" />
+      <File FileName="ElevatorAPI/Controllers/ElevatorController.cs" Line="28" Column="18" />
+      <File FileName="ElevatorAPI/Controllers/PersonController.cs" Line="23" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,15 +32,15 @@
             </Node>
             <Node name="ElevatorAPI" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="PersonController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="Infrastructure" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="ProjectDependencies" expanded="True" />
               </Node>
-              <Node name="Services" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="ElevatorService.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

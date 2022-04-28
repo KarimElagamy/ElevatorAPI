@@ -29,12 +29,12 @@ namespace Infrastructure.Services
         {
             if (elevator.elevatorDirection == Direction.up)
             {
-                var dataArray = elevator.upQueue.First<RequestModel>();
+                var dataArray = elevator.upQueue.FirstOrDefault<RequestModel>();
                 return dataArray.nextFloor;
             }
             else
             {
-                var dataArray = elevator.downQueue.First<RequestModel>();
+                var dataArray = elevator.downQueue.FirstOrDefault<RequestModel>();
                 return dataArray.nextFloor;
             }
         }

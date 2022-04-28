@@ -11,10 +11,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IPersonService, PersonService>();
-builder.Services.AddScoped<IElevatorService, ElevatorService>();
-builder.Services.AddScoped<Elevator, Elevator>();
 builder.Services.AddScoped<Person, Person>();
+builder.Services.AddTransient<Elevator, Elevator>();
+builder.Services.AddScoped<IPersonService, PersonService>();
+builder.Services.AddTransient<IElevatorService, ElevatorService>();
 
 var app = builder.Build();
 

@@ -8,7 +8,7 @@ namespace ApplicationCore.Entities
 {
     public class Person
     {
-        public int currFloor;
-        public int nextFloor;
+        public int currFloor = 1;
+        public int nextFloor = new int();
     }
 }

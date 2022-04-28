@@ -8,9 +8,9 @@ namespace ApplicationCore.Models
 {
     public class RequestModel
     {
-        public int currFloor;
-        public int nextFloor;
-        public Direction requestDirection;
+        public int currFloor = new int();
+        public int nextFloor = new int();
+        public Direction requestDirection = new Direction();
 
         public RequestModel(int currFloor, int nextFloor, Direction direction)
         {

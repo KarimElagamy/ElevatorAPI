@@ -10,10 +10,10 @@ namespace ApplicationCore.Entities
 {
     public class Elevator
     {
-        public int currFloor;
-        public Direction elevatorDirection;
-        public bool isIdle;
-        public Queue<RequestModel>? upQueue;
-        public Queue<RequestModel>? downQueue;
+        public int currFloor = 0;
+        public Direction elevatorDirection = new Direction();
+        public bool isIdle = new bool();
+        public Queue<RequestModel>? upQueue = new Queue<RequestModel>();
+        public Queue<RequestModel>? downQueue = new Queue<RequestModel>();
     }
 }

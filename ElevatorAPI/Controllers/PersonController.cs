@@ -8,9 +8,9 @@ namespace PersonAPI.Controllers
     public class PersonController : ControllerBase
     {
         private readonly IPersonService _personService;
-        public PersonController(IPersonService elev)
+        public PersonController(IPersonService person)
         {
-            _personService = elev;
+            _personService = person;
         }
 
         [HttpGet]

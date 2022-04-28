@@ -8,15 +8,16 @@
   <MonoDevelop.Ide.ItemProperties.ElevatorAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ElevatorAPI/Program.cs">
     <Files>
-      <File FileName="Infrastructure/Services/ElevatorService.cs" Line="22" Column="45" />
-      <File FileName="ApplicationCore/Entities/Elevator.cs" Line="17" Column="36" />
-      <File FileName="ApplicationCore/Models/RequestModel.cs" Line="16" Column="10" />
+      <File FileName="Infrastructure/Services/ElevatorService.cs" Line="38" Column="44" />
+      <File FileName="ApplicationCore/Entities/Elevator.cs" Line="17" Column="75" />
+      <File FileName="ApplicationCore/Models/RequestModel.cs" Line="13" Column="60" />
       <File FileName="ApplicationCore/Contracts/Services/IElevatorService.cs" Line="17" Column="1" />
-      <File FileName="Infrastructure/Services/PersonService.cs" Line="47" Column="44" />
+      <File FileName="Infrastructure/Services/PersonService.cs" Line="16" Column="26" />
       <File FileName="ApplicationCore/Contracts/Services/IPersonService.cs" Line="7" Column="1" />
-      <File FileName="ElevatorAPI/Program.cs" Line="17" Column="46" />
+      <File FileName="ElevatorAPI/Program.cs" Line="19" Column="27" />
       <File FileName="ElevatorAPI/Controllers/ElevatorController.cs" Line="28" Column="18" />
-      <File FileName="ElevatorAPI/Controllers/PersonController.cs" Line="23" Column="64" />
+      <File FileName="ElevatorAPI/Controllers/PersonController.cs" Line="16" Column="18" />
+      <File FileName="ApplicationCore/Entities/Person.cs" Line="12" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

@@ -6,7 +6,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ElevatorAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ElevatorAPI/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ElevatorAPI/Controllers/PersonController.cs">
     <Files>
       <File FileName="Infrastructure/Services/ElevatorService.cs" Line="38" Column="44" />
       <File FileName="ApplicationCore/Entities/Elevator.cs" Line="17" Column="75" />
@@ -15,8 +15,8 @@
       <File FileName="Infrastructure/Services/PersonService.cs" Line="16" Column="26" />
       <File FileName="ApplicationCore/Contracts/Services/IPersonService.cs" Line="7" Column="1" />
       <File FileName="ElevatorAPI/Program.cs" Line="19" Column="27" />
-      <File FileName="ElevatorAPI/Controllers/ElevatorController.cs" Line="28" Column="18" />
-      <File FileName="ElevatorAPI/Controllers/PersonController.cs" Line="16" Column="18" />
+      <File FileName="ElevatorAPI/Controllers/ElevatorController.cs" Line="11" Column="1" />
+      <File FileName="ElevatorAPI/Controllers/PersonController.cs" Line="29" Column="47" />
       <File FileName="ApplicationCore/Entities/Person.cs" Line="12" Column="41" />
     </Files>
     <Pads>
@@ -33,7 +33,9 @@
             </Node>
             <Node name="ElevatorAPI" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="PersonController.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Infrastructure" expanded="True">
               <Node name="Dependencies" expanded="True">
